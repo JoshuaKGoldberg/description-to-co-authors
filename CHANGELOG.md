@@ -1,3 +1,9 @@
+# [0.3.0](https://github.com/JoshuaKGoldberg/description-to-co-authors/compare/0.2.0...0.3.0) (2024-08-10)
+
+### Features
+
+- rename function to descriptionToCoAuthors ([0787421](https://github.com/JoshuaKGoldberg/description-to-co-authors/commit/0787421a96d79a86d29bf641f0353a32aa2bf138))
+
 # [0.2.0](https://github.com/JoshuaKGoldberg/description-to-co-authors/compare/0.1.0...0.2.0) (2024-08-10)
 
 ### Features
