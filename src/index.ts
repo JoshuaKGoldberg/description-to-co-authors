@@ -4,10 +4,10 @@ export interface CoAuthor {
 	username?: string;
 }
 
-export function commitToCoAuthors(commit: string) {
+export function descriptionToCoAuthors(description: string) {
 	const coAuthors: CoAuthor[] = [];
 
-	for (const match of commit.match(/co-authored-by:.+/gi) ?? []) {
+	for (const match of description.match(/co-authored-by:.+/gi) ?? []) {
 		const split = match.trim().split(/\s+/);
 		if (split.length < 2) {
 			continue;

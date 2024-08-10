@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { commitToCoAuthors } from "./index.js";
+import { descriptionToCoAuthors } from "./index.js";
 
-describe("commitToCoAuthors", () => {
+describe("descriptionToCoAuthors", () => {
 	it.each([
 		["", []],
 		["unrelated", []],
@@ -35,6 +35,6 @@ describe("commitToCoAuthors", () => {
 			[{ email: "abc@def.ghi", name: "Three Full Names" }],
 		],
 	])("%s", (input, expected) => {
-		expect(commitToCoAuthors(input)).toEqual(expected);
+		expect(descriptionToCoAuthors(input)).toEqual(expected);
 	});
 });

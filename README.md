@@ -1,6 +1,6 @@
 <h1 align="center">Description to Co Authors</h1>
 
-<p align="center">Parses co-authors from Git/GitHub-style commit messages. ✍️</p>
+<p align="center">Parses co-authors from Git/GitHub-style commit messages and issue bodies. ✍️</p>
 
 <p align="center">
 	<!-- prettier-ignore-start -->
@@ -22,14 +22,14 @@
 npm i description-to-co-authors
 ```
 
-Pass any variant of Git/GitHub-style commit message string to this package's exported `commitToCoAuthors`.
+Pass any variant of Git/GitHub-style commit message or issue body string to this package's exported `descriptionToCoAuthors`.
 It will collect data from each case-insensitive `co-authored-by:` match.
 Data may include `email`, `name`, and/or `username`:
 
 ```ts
-import { commitToCoAuthors } from "description-to-co-authors";
+import { descriptionToCoAuthors } from "description-to-co-authors";
 
-commitToCoAuthors(`
+descriptionToCoAuthors(`
 co-authored-by: @DirectUsername
 Co-authored-by: Josh Goldberg <github@joshuakgoldberg.com>
 `);
