@@ -14,8 +14,8 @@ jobs:
 
             The release is available on:
 
-            * [GitHub releases](https://github.com/JoshuaKGoldberg/commit-to-co-authors/releases/tag/{release_tag})
-            * [npm package (@latest dist-tag)](https://www.npmjs.com/package/commit-to-co-authors/v/${{ env.npm_version }})
+            * [GitHub releases](https://github.com/JoshuaKGoldberg/description-to-co-authors/releases/tag/{release_tag})
+            * [npm package (@latest dist-tag)](https://www.npmjs.com/package/description-to-co-authors/v/${{ env.npm_version }})
 
             Cheers! 📦🚀
 

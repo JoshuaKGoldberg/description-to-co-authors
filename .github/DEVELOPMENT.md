@@ -3,8 +3,8 @@
 After [forking the repo from GitHub](https://help.github.com/articles/fork-a-repo) and [installing pnpm](https://pnpm.io/installation):
 
 ```shell
-git clone https://github.com/<your-name-here>/commit-to-co-authors
-cd commit-to-co-authors
+git clone https://github.com/<your-name-here>/description-to-co-authors
+cd description-to-co-authors
 pnpm install
 ```
 

@@ -15,7 +15,7 @@ export function commitToCoAuthors(commit: string) {
 
 		const coAuthor: CoAuthor = {};
 
-		const email = split[split.length - 1].match(/<(.+)>/)?.[1];
+		const email = /<(.+)>/.exec(split[split.length - 1])?.[1];
 		if (email) {
 			coAuthor.email = email;
 		}
