@@ -39,8 +39,8 @@ importers:
         specifier: 9.12.0
         version: 9.12.0(jiti@2.3.3)
       eslint-plugin-jsdoc:
-        specifier: 50.3.0
-        version: 50.3.0(eslint@9.12.0(jiti@2.3.3))
+        specifier: 50.4.0
+        version: 50.4.0(eslint@9.12.0(jiti@2.3.3))
       eslint-plugin-jsonc:
         specifier: 2.16.0
         version: 2.16.0(eslint@9.12.0(jiti@2.3.3))
@@ -384,8 +384,8 @@ packages:
     resolution: {integrity: sha512-y2RecE/1CXgvNd7LZA8tTsSnBoA7RuU7kS7lI91hXzBJfRS/Yk21dixeVDD36qQy7csmn0dWitsVayqTFu2cXg==}
     engines: {node: '>=18.0'}
 
-  '@es-joy/jsdoccomment@0.48.0':
-    resolution: {integrity: sha512-G6QUWIcC+KvSwXNsJyDTHvqUdNoAVJPPgkc3+Uk4WBKqZvoXhlvazOgm9aL0HwihJLQf0l+tOE2UFzXBqCqgDw==}
+  '@es-joy/jsdoccomment@0.49.0':
+    resolution: {integrity: sha512-xjZTSFgECpb9Ohuk5yMX5RhUEbfeQcuOp8IF60e+wyzWEF0M5xeSgqsfLtvPEX8BIyOX9saZqzuGPmZ8oWc+5Q==}
     engines: {node: '>=16'}
 
   '@esbuild/aix-ppc64@0.23.0':
@@ -1724,8 +1724,8 @@ packages:
     peerDependencies:
       eslint: '>=8'
 
-  eslint-plugin-jsdoc@50.3.0:
-    resolution: {integrity: sha512-P7qDB/RckdKETpBM4CtjHRQ5qXByPmFhRi86sN3E+J+tySchq+RSOGGhI2hDIefmmKFuTi/1ACjqsnDJDDDfzg==}
+  eslint-plugin-jsdoc@50.4.0:
+    resolution: {integrity: sha512-UT7mfB4x9XgBTCrg8VxsOnZ+uglKG09RkAVfaIRHSF/YdiXx32ix9B0IZ8aiGAvloGNkBMSi19mTQUk3aEAMQA==}
     engines: {node: '>=18'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -3969,7 +3969,7 @@ snapshots:
 
   '@cspell/url@8.15.0': {}
 
-  '@es-joy/jsdoccomment@0.48.0':
+  '@es-joy/jsdoccomment@0.49.0':
     dependencies:
       comment-parser: 1.4.1
       esquery: 1.6.0
@@ -5266,9 +5266,9 @@ snapshots:
       eslint: 9.12.0(jiti@2.3.3)
       eslint-compat-utils: 0.5.1(eslint@9.12.0(jiti@2.3.3))
 
-  eslint-plugin-jsdoc@50.3.0(eslint@9.12.0(jiti@2.3.3)):
+  eslint-plugin-jsdoc@50.4.0(eslint@9.12.0(jiti@2.3.3)):
     dependencies:
-      '@es-joy/jsdoccomment': 0.48.0
+      '@es-joy/jsdoccomment': 0.49.0
       are-docs-informative: 0.0.2
       comment-parser: 1.4.1
       debug: 4.3.6
