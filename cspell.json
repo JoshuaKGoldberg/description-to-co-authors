@@ -1,6 +1,7 @@
 {
-	"dictionaries": ["typescript"],
+	"dictionaries": ["npm", "node", "typescript"],
 	"ignorePaths": [
+		".all-contributorsrc",
 		".github",
 		"CHANGELOG.md",
 		"coverage",
@@ -8,5 +9,14 @@
 		"node_modules",
 		"pnpm-lock.yaml"
 	],
-	"words": ["knip", "packagejson", "tseslint", "tsup"]
+	"words": [
+		"apexskier",
+		"automerge",
+		"joshuakgoldberg",
+		"knip",
+		"markdownlintignore",
+		"packagejson",
+		"tseslint",
+		"tsup"
+	]
 }
