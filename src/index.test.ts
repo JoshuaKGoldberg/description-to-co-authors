@@ -34,6 +34,13 @@ describe("descriptionToCoAuthors", () => {
 			"Co-authored-by: Three Full Names <abc@def.ghi>",
 			[{ email: "abc@def.ghi", name: "Three Full Names" }],
 		],
+		["Co-authored-by: <abc@def.ghi>\n\n", [{ email: "abc@def.ghi" }]],
+		["Co-authored-by: <abc@def.ghi>\n\n🧵", [{ email: "abc@def.ghi" }]],
+		["Co-authored-by: <abc@def.ghi>\n💖\n🧵", [{ email: "abc@def.ghi" }]],
+		[
+			"Co-authored-by: <abc@def.ghi>\n\n💖\n🧵\t\n❤️‍🔥",
+			[{ email: "abc@def.ghi" }],
+		],
 	])("%s", (input, expected) => {
 		expect(descriptionToCoAuthors(input)).toEqual(expected);
 	});
