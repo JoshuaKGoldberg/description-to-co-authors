@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { descriptionToCoAuthors } from "./index.js";
+import { descriptionToCoAuthors } from "./index.ts";
 
-describe("descriptionToCoAuthors", () => {
+describe(descriptionToCoAuthors, () => {
 	it.each([
 		["", []],
 		["unrelated", []],

@@ -26,6 +26,5 @@
   ],
   "projectName": "description-to-co-authors",
   "projectOwner": "JoshuaKGoldberg",
-  "repoType": "github",
-  "commitConvention": "angular"
+  "repoType": "github"
 }
