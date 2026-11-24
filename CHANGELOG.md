@@ -1,3 +1,11 @@
+# Changelog
+
+## [0.3.1](https://github.com/JoshuaKGoldberg/description-to-co-authors/compare/0.3.0...0.3.1) (2026-11-24)
+
+### Bug Fixes
+
+- bump to create-typescript-app@2.87.18 ([#618](https://github.com/JoshuaKGoldberg/description-to-co-authors/issues/618)) ([cfaaec0](https://github.com/JoshuaKGoldberg/description-to-co-authors/commit/cfaaec04f5e9a28614c10fb808d2e4627bdf5f5c)), closes [#617](https://github.com/JoshuaKGoldberg/description-to-co-authors/issues/617)
+
 ## [0.3.0](https://github.com/JoshuaKGoldberg/description-to-co-authors/compare/0.2.0...0.3.0) (2024-08-10)
 
 ### Features
